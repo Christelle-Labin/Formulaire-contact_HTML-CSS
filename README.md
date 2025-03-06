@@ -2,10 +2,7 @@
   
 Formulaire de contact crée de A à Z à destination de mon projet personnel Portfolio
 
-En cours de développement !
-
-Modifications à effectuer :
-
+Modifications effectuées le 06/03/2025 : version finale
 - clean code
 - la partie responsive
          
