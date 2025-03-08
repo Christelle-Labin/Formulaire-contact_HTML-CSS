@@ -221,7 +221,8 @@ footer {
   align-content: center;
 }
 
-/* --breakpoint: 0;
+/* --breakpoint:
+    --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1100px; */
@@ -258,11 +259,44 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .nav-menu {
+    height: 50px;
+  }
   section {
     padding: 20px 40px 0px;
   }
 
   h1 {
     font-size: 22px;
+  }
+
+  ol.list-unstyled {
+    padding: 30px 15px;
+    flex-direction: column;
+  }
+
+  .full_name-col-xl,
+  .phone-col-xl {
+    width: 110%;
+  }
+  button {
+    padding: 14px 42px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    padding: 10px 30px 0px;
+  }
+
+  li {
+    margin: 0 0 30px;
+  }
+
+  .margin-left > p {
+    font-size: 14px;
   }
 }
